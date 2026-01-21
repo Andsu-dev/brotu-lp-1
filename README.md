@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Brotu Landing Page
 
-# Run and deploy your AI Studio app
+Landing page para a Brotu - plataforma de growth organico para creators.
 
-This contains everything you need to run your app locally.
+## Stack
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
 
-## Run Locally
+## Rodar Localmente
 
-**Prerequisites:**  Node.js
+**Pre-requisitos:** Node.js 18+
 
+1. Instalar dependencias:
+   ```bash
+   npm install
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. Rodar o app:
+   ```bash
+   npm run dev
+   ```
+
+3. Acessar em `http://localhost:5173`
+
+## Scripts
+
+- `npm run dev` - Inicia servidor de desenvolvimento
+- `npm run build` - Build de producao
+- `npm run preview` - Preview do build
+- `npm run lint` - Verificacao de tipos TypeScript
+
+## Estrutura
+
+```
+brotu-lp/
+├── components/        # Componentes React
+├── context/          # Contextos (WaitlistContext)
+├── public/           # Assets estaticos (stickers, mascote)
+├── App.tsx           # Componente principal
+├── index.tsx         # Entry point
+└── index.html        # HTML base
+```
+
+## Funcionalidades
+
+- Modal de lista de espera global
+- Navegacao suave entre secoes
+- Design retro/neobrutalism
+- Responsivo
+- Stickers decorativos da marca
