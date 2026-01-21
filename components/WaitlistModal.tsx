@@ -21,7 +21,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  // Bloqueia scroll do body quando modal esta aberto
+  // Bloqueia scroll do body quando o modal está aberto
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
@@ -44,7 +44,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Dados do formulario:", formData);
+    console.log("Dados do formulário:", formData);
     setSubmitted(true);
   };
 
@@ -94,13 +94,13 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
               SEMENTE PLANTADA!
             </h3>
             <p className="text-lg font-bold text-black/60 mb-6">
-              Voce ta dentro, {formData.name.split(" ")[0]}! Agora e so aguardar
+              Você tá dentro, {formData.name.split(" ")[0]}! Agora é só aguardar
               que a gente vai te avisar quando for a hora de colher os
               resultados.
             </p>
             <div className="bg-[#FFD166] border-2 border-black p-4 inline-block mb-6">
               <p className="font-black text-sm uppercase tracking-widest">
-                Fique de olho no seu email
+                Fique de olho no seu e-mail
               </p>
             </div>
             <button
@@ -146,7 +146,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                 {/* Email */}
                 <div>
                   <label className="block font-black text-xs uppercase tracking-widest mb-2 text-[#1A1A1A]">
-                    Seu melhor email
+                    Seu melhor e-mail
                   </label>
                   <input
                     type="email"
@@ -182,7 +182,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                 {/* Nicho */}
                 <div>
                   <label className="block font-black text-xs uppercase tracking-widest mb-2 text-[#1A1A1A]">
-                    Qual e a sua vibe?
+                    Qual é a sua vibe?
                   </label>
                   <select
                     name="niche"
@@ -191,16 +191,16 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                     required
                     className="w-full px-4 py-3 border-2 border-black font-bold text-base focus:outline-none focus:shadow-[4px_4px_0_#EF5E28] transition-shadow bg-white appearance-none cursor-pointer"
                   >
-                    <option value="">Escolhe ai seu nicho</option>
+                    <option value="">Escolhe aí seu nicho</option>
                     <option value="lifestyle">Lifestyle & Dia a dia</option>
-                    <option value="tech">Tech & Inovacao</option>
-                    <option value="fitness">Fitness & Saude</option>
+                    <option value="tech">Tech & Inovação</option>
+                    <option value="fitness">Fitness & Saúde</option>
                     <option value="beauty">Beleza & Moda</option>
                     <option value="food">Gastronomia</option>
                     <option value="business">
-                      Negocios & Empreendedorismo
+                      Negócios & Empreendedorismo
                     </option>
-                    <option value="education">Educacao & Cursos</option>
+                    <option value="education">Educação & Cursos</option>
                     <option value="entertainment">
                       Entretenimento & Humor
                     </option>
@@ -223,25 +223,12 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
               </button>
 
               <p className="text-center mt-4 text-xs font-bold text-black/40 uppercase tracking-widest">
-                Relaxa, a gente odeia spam tanto quanto voce
+                Relaxa, a gente odeia spam tanto quanto você
               </p>
             </form>
           </div>
         )}
       </div>
-
-      <style>{`
-        @keyframes modalIn {
-          from {
-            opacity: 0;
-            transform: scale(0.95) translateY(10px);
-          }
-          to {
-            opacity: 1;
-            transform: scale(1) translateY(0);
-          }
-        }
-      `}</style>
     </div>
   );
 }

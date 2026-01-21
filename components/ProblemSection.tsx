@@ -1,25 +1,25 @@
 const scenarios = [
   {
     title: "O Abismo do Algoritmo",
-    desc: "Um dia sem postar e sua relevancia despenca. O crescimento organico exige uma presenca que o tempo humano sozinho nao consegue sustentar.",
+    desc: "Um dia sem postar e sua relevância despenca. O crescimento orgânico exige uma presença que o tempo humano sozinho não consegue sustentar.",
     icon: "📉",
     tag: "O RISCO",
   },
   {
     title: "Burnout Criativo",
-    desc: "Tentar criar sob pressao mata a alma da sua marca. Voce gasta horas e acaba com conteudos vazios que nao geram autoridade.",
+    desc: "Tentar criar sob pressão mata a alma da sua marca. Você gasta horas e acaba com conteúdos vazios que não geram autoridade.",
     icon: "🧠",
     tag: "A BARREIRA",
   },
   {
     title: "Janelas de Oportunidade",
-    desc: "As tendencias passam rapido demais. Sem a agilidade da Brotu, voce chega atrasado em todas as conversas do seu nicho.",
+    desc: "As tendências passam rápido demais. Sem a agilidade da Brotu, você chega atrasado em todas as conversas do seu nicho.",
     icon: "⌛",
     tag: "O ATRASO",
   },
   {
-    title: "O Silencio da Audiencia",
-    desc: "Seguidores esperam interacao. Demorar para responder e o caminho mais rapido para ser esquecido pelo seu publico e pelo algoritmo.",
+    title: "O Silêncio da Audiência",
+    desc: "Seguidores esperam interação. Demorar para responder é o caminho mais rápido para ser esquecido pelo seu público e pelo algoritmo.",
     icon: "🔇",
     tag: "A FALHA",
   },
@@ -46,12 +46,12 @@ export default function ProblemSection() {
             O DESAFIO REAL
           </div>
           <h2 className="text-5xl sm:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-            CRESCER NO ORGANICO <br />
-            <span className="text-[#EF5E28]">EXIGE CONSTANCIA.</span>
+            CRESCER NO ORGÂNICO <br />
+            <span className="text-[#EF5E28]">EXIGE CONSTÂNCIA.</span>
           </h2>
           <p className="text-xl text-white/70 font-bold max-w-2xl mx-auto leading-relaxed">
-            Ter um perfil relevante nao e sorte. E sobre estar presente, com
-            estrategia e qualidade, todos os dias.{" "}
+            Ter um perfil relevante não é sorte. É sobre estar presente, com
+            estratégia e qualidade, todos os dias.{" "}
             <span className="text-white underline decoration-4 decoration-[#EF5E28]">
               A Brotu resolve o que te impede de ser visto.
             </span>
@@ -84,7 +84,7 @@ export default function ProblemSection() {
 
         <div className="mt-20 bg-[#EF5E28] border-4 border-black p-12 text-center relative shadow-[12px_12px_0_#1A1A1A]">
           <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-white border-2 border-black px-6 py-2 text-xs font-black uppercase tracking-widest">
-            A SOLUCAO BROTU
+            A SOLUÇÃO BROTU
           </div>
           <p className="text-2xl sm:text-5xl font-black text-white uppercase tracking-tighter italic leading-none">
             "PARE DE CAVAR SOZINHO. <br className="sm:hidden" /> COMECE A COLHER

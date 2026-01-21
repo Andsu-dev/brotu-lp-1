@@ -73,10 +73,10 @@ export default function Pricing() {
         </div>
         <h2 className="text-5xl md:text-8xl font-black mb-8 uppercase tracking-tighter leading-none">
           INVISTA EM SUA <br />
-          <span className="text-[#EF5E28]">RELEVANCIA.</span>
+          <span className="text-[#EF5E28]">RELEVÂNCIA.</span>
         </h2>
         <p className="text-xl text-black/50 mb-20 font-bold max-w-2xl mx-auto">
-          Quanto custa ser invisivel para o seu publico? <br />
+          Quanto custa ser invisível para o seu público? <br />
           Escolha como quer que a Brotu impulsione sua marca.
         </p>
 
@@ -127,8 +127,9 @@ export default function Pricing() {
             </div>
           ))}
         </div>
+
         <p className="mt-16 text-xs font-black uppercase opacity-40 tracking-[0.2em] italic">
-          Vagas limitadas • O Growth da sua marca comeca aqui
+          Vagas limitadas • O growth da sua marca começa aqui
         </p>
       </div>
     </section>

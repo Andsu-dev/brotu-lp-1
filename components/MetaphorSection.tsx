@@ -41,8 +41,8 @@ export default function MetaphorSection() {
           O CAMINHO DO GROWTH
         </div>
         <h2 className="text-5xl md:text-7xl font-black mb-16 leading-[0.9] uppercase tracking-tighter">
-          SUA VISAO. <br />
-          <span className="text-[#EF5E28]">NOSSA EXECUCAO.</span>
+          SUA VISÃO. <br />
+          <span className="text-[#EF5E28]">NOSSA EXECUÇÃO.</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">

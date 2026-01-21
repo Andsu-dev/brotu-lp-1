@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[#FDFBF7]/50 text-sm font-bold leading-relaxed mb-6">
-              Impulsionando o Growth organico de creators que buscam relevancia
+              Impulsionando o growth orgânico de creators que buscam relevância
               real no digital.
             </p>
             <div className="flex gap-3">
@@ -67,7 +67,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/*<div>
             <h4 className="font-black text-xs uppercase tracking-[0.2em] text-[#EF5E28] mb-6">
               Comunidade
             </h4>
@@ -88,9 +88,9 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div>*/}
 
-          <div>
+          {/*<div>
             <h4 className="font-black text-xs uppercase tracking-[0.2em] text-[#EF5E28] mb-6">
               Legal
             </h4>
@@ -111,7 +111,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div>*/}
         </div>
 
         {/* Bottom Bar */}
@@ -120,7 +120,7 @@ export default function Footer() {
             &copy; {currentYear} BROTU GROWTH. TODOS OS DIREITOS RESERVADOS.
           </p>
           <p className="text-center md:text-right">
-            A RELEVANCIA É FRUTO DA CONSTANCIA.
+            A RELEVÂNCIA É FRUTO DA CONSTÂNCIA.
           </p>
         </div>
       </div>

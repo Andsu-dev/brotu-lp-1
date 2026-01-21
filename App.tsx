@@ -11,43 +11,43 @@ import { WaitlistProvider, useWaitlist } from "./context/WaitlistContext";
 
 const features = [
   {
-    title: "Curadoria de Nicho",
-    desc: "Inteligencia que aprende sua voz. A Brotu nao gera posts genericos, ela entende sua marca para criar conexao real.",
+    title: "Curadoria por Nicho",
+    desc: "Inteligência que aprende sua voz. A Brotu não gera posts genéricos: ela entende sua marca para criar conexão real com seu público.",
     icon: "🎯",
     color: "bg-white",
     dark: false,
   },
   {
     title: "Faro de Growth",
-    desc: "Monitoramos as tendencias do seu nicho 24h. A Brotu te posiciona no centro do que esta acontecendo agora.",
+    desc: "Monitoramos as tendências do seu nicho 24h. A Brotu te posiciona no centro do que está acontecendo agora.",
     icon: "📈",
     color: "bg-[#FFD166]",
     dark: false,
   },
   {
-    title: "Constancia Imbativel",
-    desc: "A Brotu garante que voce nunca fique em silencio. Organizamos seu calendario para uma presenca onipresente.",
+    title: "Constância Imbatível",
+    desc: "A Brotu garante que você nunca fique em silêncio. Organizamos seu calendário para uma presença onipresente.",
     icon: "⚡",
     color: "bg-[#003B5C]",
     dark: true,
   },
   {
     title: "Engajamento Ativo",
-    desc: "Interaja com sua audiencia com agilidade. A Brotu ajuda voce a responder cada comentario, aquecendo sua comunidade.",
+    desc: "Interaja com sua audiência com agilidade. A Brotu ajuda você a responder cada comentário, aquecendo sua comunidade.",
     icon: "🤝",
     color: "bg-[#8CC63F]",
     dark: false,
   },
   {
-    title: "Distribuicao Brotu",
-    desc: "Sua mensagem, em todo lugar, no formato certo. Do Reels ao X, a Brotu adapta sua essencia para cada rede.",
+    title: "Distribuição Brotu",
+    desc: "Sua mensagem, em todo lugar, no formato certo. Do Reels ao X, a Brotu adapta sua essência para cada rede.",
     icon: "🔄",
     color: "bg-white",
     dark: false,
   },
   {
-    title: "Analise de Relevancia",
-    desc: "Chega de metricas vazias. Foque nos dados que realmente constroem autoridade e trazem seguidores qualificados.",
+    title: "Análise de Relevância",
+    desc: "Chega de métricas vazias. Foque nos dados que realmente constroem autoridade e atraem seguidores qualificados.",
     icon: "💎",
     color: "bg-[#EF5E28]",
     dark: true,
@@ -58,8 +58,8 @@ const marqueeItems = [
   "🗓️ Agende seus posts com facilidade",
   "🔥 Acompanhe o que viraliza no seu nicho",
   "💡 Fuja do bloqueio criativo",
-  "🚀 Impulsione seu conteudo com IA",
-  "🌱 Cresca no organico com a Brotu",
+  "🚀 Impulsione seu conteúdo com IA",
+  "🌱 Cresça no orgânico com a Brotu",
 ];
 
 function AppContent() {
@@ -90,20 +90,20 @@ function AppContent() {
         <section className="py-32 bg-[#FDFBF7]" id="features">
           <div className="max-w-7xl mx-auto px-6 text-center">
             <Sticker
-              text="A IMPORTANCIA DA BROTU"
+              text="A IMPORTÂNCIA DA BROTU"
               variant="blue"
               className="mb-8"
               rotation="2deg"
             />
             <h2 className="text-5xl sm:text-8xl font-black mb-12 uppercase tracking-tighter leading-none">
               MUITO MAIS QUE <br />
-              <span className="text-[#EF5E28]">CONTEUDO AUTOMATICO.</span>
+              <span className="text-[#EF5E28]">CONTEÚDO AUTOMÁTICO.</span>
             </h2>
             <p className="text-xl text-black/60 mb-20 font-bold max-w-3xl mx-auto leading-relaxed">
-              A Brotu e o braco direito do creator moderno. Nao trabalhamos no
-              seu lugar; potencializamos sua estrategia para que seu Growth
-              nunca pare. Mantemos sua marca pulsando enquanto voce foca na
-              visao que so voce tem.
+              A Brotu é o braço direito do creator moderno. Não trabalhamos no
+              seu lugar; potencializamos sua estratégia para que seu Growth
+              nunca pare. Mantemos sua marca pulsando enquanto você foca na
+              visão que só você tem.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -140,28 +140,28 @@ function AppContent() {
               <div className="flex-1">
                 <h3 className="text-4xl sm:text-6xl font-black uppercase tracking-tighter mb-8 leading-[0.9]">
                   RECUPERE SEU TEMPO PARA{" "}
-                  <span className="text-[#EF5E28]">ESTRATEGIA.</span>
+                  <span className="text-[#EF5E28]">ESTRATÉGIA.</span>
                 </h3>
                 <div className="space-y-8">
                   <div className="flex gap-6 items-start border-l-[6px] border-[#003B5C] pl-8">
                     <div>
                       <p className="font-black text-2xl uppercase tracking-tighter">
-                        Growth Sem Exaustao
+                        Growth Sem Exaustão
                       </p>
                       <p className="text-base font-bold opacity-60 mt-2">
-                        A Brotu cuida da execucao repetitiva para voce focar no
-                        que e insubstituivel: sua visao.
+                        A Brotu cuida da execução repetitiva para você focar no
+                        que é insubstituível: sua visão.
                       </p>
                     </div>
                   </div>
                   <div className="flex gap-6 items-start border-l-[6px] border-[#EF5E28] pl-8">
                     <div>
                       <p className="font-black text-2xl uppercase tracking-tighter">
-                        Presenca Digital Viva
+                        Presença Digital Viva
                       </p>
                       <p className="text-base font-bold opacity-60 mt-2">
-                        O algoritmo exige frequencia. A Brotu entrega a
-                        constancia que sua marca precisa para nunca ser
+                        O algoritmo exige frequência. A Brotu entrega a
+                        constância que sua marca precisa para nunca ser
                         esquecida.
                       </p>
                     </div>
@@ -172,7 +172,7 @@ function AppContent() {
                 <div className="space-y-6">
                   <p className="text-6xl">🔥</p>
                   <p className="font-black text-3xl uppercase tracking-tighter leading-none">
-                    "A Brotu e o combustivel que faltava para o seu growth."
+                    "A Brotu e o combustível que faltava para o seu growth."
                   </p>
                   <p className="text-xs font-black opacity-40 uppercase tracking-[0.2em]">
                     — Creator Brotu
@@ -182,7 +182,7 @@ function AppContent() {
                       onClick={openModal}
                       className="retro-btn-primary w-full py-4 font-black uppercase tracking-widest text-sm"
                     >
-                      Faca sua marca crescer
+                      Faça sua marca crescer
                     </button>
                   </div>
                 </div>

@@ -7,8 +7,8 @@ const upcomingPosts = [
     color: "bg-[#EF5E28]",
   },
   {
-    title: "5 erros que estao matando seu engajamento",
-    category: "Estrategia",
+    title: "5 erros que estão matando seu engajamento",
+    category: "Estratégia",
     color: "bg-[#003B5C]",
   },
   {
@@ -36,8 +36,8 @@ export default function BlogSection() {
             <span className="text-[#EF5E28]">EM BREVE.</span>
           </h2>
           <p className="text-xl text-black/50 font-bold max-w-2xl mx-auto">
-            Ta chegando conteudo de qualidade pra te ajudar a dominar o jogo do
-            growth organico. Fica ligado!
+            Tá chegando conteúdo de qualidade pra te ajudar a dominar o jogo do
+            growth orgânico. Fica ligado!
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export default function BlogSection() {
                 Quer ser avisado?
               </p>
               <p className="text-sm font-bold text-black/60">
-                Entra na lista de espera e recebe tudo em primeira mao!
+                Entra na lista de espera e recebe tudo em primeira mão!
               </p>
             </div>
             <button

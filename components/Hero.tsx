@@ -24,31 +24,39 @@ export default function Hero() {
         <div className="max-w-2xl mx-auto mt-6">
           <p className="text-lg sm:text-xl font-medium text-[#1A1A1A]/70 leading-relaxed mb-10">
             A Brotu planta as sementes do seu conteudo, cultiva sua presenca
-            digital e colhe resultados reais.
+            digital e você colhe os resultados.
             <span className="block font-black text-black mt-2">
-              Enquanto voce vive, sua marca floresce.
+              Enquanto você vive, sua marca floresce.
             </span>
           </p>
         </div>
 
         {/* Social Icons Row */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {["instagram", "tiktok", "youtube", "x", "facebook"].map((social) => (
-            <div
-              key={social}
-              className="w-12 h-12 sm:w-14 sm:h-14 bg-white border-[3px] border-black shadow-[4px_4px_0px_#003B5C] flex items-center justify-center hover:-translate-y-1 transition-transform cursor-pointer"
-            >
-              <img
-                src={`https://cdn.simpleicons.org/${social === "x" ? "x" : social}/000000`}
-                alt={social}
-                className="w-6 h-6"
-              />
-            </div>
-          ))}
+
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-wrap justify-center gap-3">
+            {["instagram", "tiktok", "youtube", "x", "facebook"].map(
+              (social) => (
+                <div
+                  key={social}
+                  className="w-12 h-12 sm:w-14 sm:h-14 bg-white border-[3px] border-black shadow-[4px_4px_0px_#003B5C] flex items-center justify-center hover:-translate-y-1 transition-transform cursor-pointer"
+                >
+                  <img
+                    src={`https://cdn.simpleicons.org/${social === "x" ? "x" : social}/000000`}
+                    alt={social}
+                    className="w-6 h-6"
+                  />
+                </div>
+              ),
+            )}
+          </div>
+          <p className="text-xs font-black uppercase opacity-40 mb-10 tracking-widest">
+            Tudo em um só lugar
+          </p>
         </div>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-6">
           <button
             onClick={openModal}
             className="w-full sm:w-auto px-12 py-5 retro-btn-primary text-lg font-black uppercase tracking-tight flex items-center justify-center gap-3"
@@ -62,9 +70,6 @@ export default function Hero() {
             Ver como funciona
           </a>
         </div>
-        <p className="text-xs font-black uppercase opacity-40 mb-20 tracking-widest">
-          Vagas limitadas • Seja um dos primeiros
-        </p>
       </div>
     </section>
   );
