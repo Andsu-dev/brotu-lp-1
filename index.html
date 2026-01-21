@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Brotu | Onde Creators Crescem no Orgânico</title>
+        <link rel="icon" type="image/png" href="/logo-mascote.png" />
+        <link rel="apple-touch-icon" href="/logo-mascote.png" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            :root {
+                --brotu-orange: #ef5e28;
+                --brotu-blue: #003b5c;
+                --brotu-cream: #fdfbf7;
+            }
+            body {
+                font-family: "Space Grotesk", sans-serif;
+                background-color: var(--brotu-cream);
+                background-image: radial-gradient(
+                    #003b5c1a 1px,
+                    transparent 1px
+                );
+                background-size: 24px 24px;
+                color: #1a1a1a;
+                overflow-x: hidden;
+            }
+            h1,
+            h2,
+            h3,
+            .font-retro {
+                font-family: "Fraunces", serif;
+            }
+            .retro-border {
+                border: 3px solid #1a1a1a;
+                box-shadow: 5px 5px 0px #1a1a1a;
+            }
+            .retro-btn-primary {
+                background-color: #1a1a1a;
+                color: white;
+                border: 3px solid #1a1a1a;
+                box-shadow: 0px 6px 0px #ef5e28;
+                transition: all 0.1s;
+            }
+            .retro-btn-primary:active {
+                transform: translateY(4px);
+                box-shadow: 0px 2px 0px #ef5e28;
+            }
+            .retro-btn-secondary {
+                background-color: white;
+                color: #1a1a1a;
+                border: 3px solid #1a1a1a;
+                box-shadow: 4px 4px 0px #1a1a1a;
+                transition: all 0.1s;
+            }
+            .retro-btn-secondary:active {
+                transform: translate(2px, 2px);
+                box-shadow: 2px 2px 0px #1a1a1a;
+            }
+            @keyframes float {
+                0%,
+                100% {
+                    transform: translateY(0) rotate(var(--tw-rotate, 0deg));
+                }
+                50% {
+                    transform: translateY(-8px) rotate(var(--tw-rotate, 0deg));
+                }
+            }
+            .animate-float {
+                animation: float 4s ease-in-out infinite;
+            }
+            .text-outline {
+                -webkit-text-stroke: 1.5px #1a1a1a;
+                text-stroke: 1.5px #1a1a1a;
+                color: transparent;
+            }
+        </style>
+        <script type="importmap">
+            {
+                "imports": {
+                    "react/": "https://esm.sh/react@^19.2.3/",
+                    "react": "https://esm.sh/react@^19.2.3",
+                    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+                }
+            }
+        </script>
+        <link rel="stylesheet" href="/index.css" />
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/index.tsx"></script>
+    </body>
+</html>
