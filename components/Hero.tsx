@@ -14,10 +14,18 @@ export default function Hero() {
           CONSTRUIDO PARA CREATORS
         </div>
 
-        <h1 className="text-5xl sm:text-7xl lg:text-[85px] font-black leading-[0.9] mb-8 uppercase tracking-tighter text-[#1A1A1A]">
-          CRIE CONTEUDO <br className="hidden sm:block" /> TODOS OS DIAS. <br />
-          <span className="inline-block bg-[#EF5E28] text-white border-4 border-black px-4 py-1 mt-2 -rotate-1">
-            CRESCA NO ORGANICO.
+        <h1
+          className="text-5xl sm:text-7xl lg:text-[85px]
+          font-black
+          leading-[1.02]
+          uppercase
+          tracking-tight
+          text-[#1A1A1A]"
+          style={{ wordSpacing: "0.25em" }}
+        >
+          CRIE CONTEÚDO <br className="hidden sm:block" /> TODOS OS DIAS. <br />
+          <span className="inline-block bg-[#EF5E28] text-white border-4 border-black px-4 py-1 mt-4 -rotate-1">
+            CRESÇA NO ORGÂNICO.
           </span>
         </h1>
 
