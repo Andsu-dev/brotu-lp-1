@@ -1,27 +1,27 @@
 const scenarios = [
   {
-    title: "O Abismo do Algoritmo",
-    desc: "Um dia sem postar e sua relevância despenca. O crescimento orgânico exige uma presença que o tempo humano sozinho não consegue sustentar.",
-    icon: "📉",
-    tag: "O RISCO",
+    title: "Tudo Depende de Você",
+    desc: "Postar, adaptar formato, escrever legenda, responder comentários. Quando tudo passa por você, a constância vira exaustão.",
+    icon: "🧱",
+    tag: "O PESO",
   },
   {
-    title: "Burnout Criativo",
-    desc: "Tentar criar sob pressão mata a alma da sua marca. Você gasta horas e acaba com conteúdos vazios que não geram autoridade.",
-    icon: "🧠",
-    tag: "A BARREIRA",
+    title: "Rotina Quebrada",
+    desc: "Sem processo, cada post vira um recomeço. Você cria muito, mas publica pouco — e quase nunca no ritmo ideal.",
+    icon: "📆",
+    tag: "O CAOS",
   },
   {
-    title: "Janelas de Oportunidade",
-    desc: "As tendências passam rápido demais. Sem a agilidade da Brotu, você chega atrasado em todas as conversas do seu nicho.",
-    icon: "⌛",
-    tag: "O ATRASO",
+    title: "Conteúdos Perdidos",
+    desc: "Vídeos bons ficam esquecidos. Falta tempo para reaproveitar, organizar e extrair valor do que você já criou.",
+    icon: "🗂️",
+    tag: "O DESPERDÍCIO",
   },
   {
-    title: "O Silêncio da Audiência",
-    desc: "Seguidores esperam interação. Demorar para responder é o caminho mais rápido para ser esquecido pelo seu público e pelo algoritmo.",
-    icon: "🔇",
-    tag: "A FALHA",
+    title: "Tudo Manual",
+    desc: "Publicar rede por rede, todos os dias, consome energia criativa que deveria estar indo para o conteúdo.",
+    icon: "⏳",
+    tag: "O ATRITO",
   },
 ];
 
@@ -46,14 +46,15 @@ export default function ProblemSection() {
             O DESAFIO REAL
           </div>
           <h2 className="text-5xl sm:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-            CRESCER NO ORGÂNICO <br />
-            <span className="text-[#EF5E28]">EXIGE CONSTÂNCIA.</span>
+            CONSTÂNCIA NÃO FALTA IDEIA. <br />
+            <span className="text-[#EF5E28]">FALTA PROCESSO.</span>
           </h2>
-          <p className="text-xl text-white/70 font-bold max-w-2xl mx-auto leading-relaxed">
-            Ter um perfil relevante não é sorte. É sobre estar presente, com
-            estratégia e qualidade, todos os dias.{" "}
+          <p className="text-xl text-white/70 font-semibold max-w-2xl mx-auto leading-relaxed">
+            Criar conteúdo não é o problema. O problema é manter tudo rodando
+            todos os dias — postar, organizar, reaproveitar e responder — sem se
+            perder no caminho.{" "}
             <span className="text-white underline decoration-4 decoration-[#EF5E28]">
-              A Brotu resolve o que te impede de ser visto.
+              A Brotu resolve isso para você.
             </span>
           </p>
         </div>
@@ -87,8 +88,8 @@ export default function ProblemSection() {
             A SOLUÇÃO BROTU
           </div>
           <p className="text-2xl sm:text-5xl font-black text-white uppercase tracking-tighter italic leading-none">
-            "PARE DE CAVAR SOZINHO. <br className="sm:hidden" /> COMECE A COLHER
-            COM A BROTU."
+            "Você cria. <br className="sm:hidden" /> A Brotu mantém tudo
+            crescendo."
           </p>
         </div>
       </div>

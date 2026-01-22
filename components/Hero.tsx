@@ -5,11 +5,9 @@ export default function Hero() {
 
   return (
     <section className="relative pt-12 pb-24 overflow-hidden">
-      {/* Background Decor */}
       <div className="absolute top-20 -left-10 w-40 h-40 bg-[#EF5E28]/10 rounded-full blur-3xl -z-10"></div>
 
       <div className="max-w-6xl mx-auto px-6 text-center">
-        {/* Badge Construido para Creators */}
         <div className="inline-flex items-center gap-3 px-4 py-2 bg-[#1A1A1A] text-white text-[10px] font-black uppercase tracking-widest mb-10 border-2 border-black shadow-[4px_4px_0px_#EF5E28]">
           CONSTRUIDO PARA CREATORS
         </div>
@@ -23,18 +21,21 @@ export default function Hero() {
           text-[#1A1A1A]"
           style={{ wordSpacing: "0.25em" }}
         >
-          CRIE CONTEÚDO <br className="hidden sm:block" /> TODOS OS DIAS. <br />
+          Crie uma vez.
+          <br className="hidden sm:block" />
+          Publique em
+          <br />
           <span className="inline-block bg-[#EF5E28] text-white border-4 border-black px-4 py-1 mt-4 -rotate-1">
-            CRESÇA NO ORGÂNICO.
+            todos os lugares.
           </span>
         </h1>
 
         <div className="max-w-2xl mx-auto mt-6">
           <p className="text-lg sm:text-xl font-medium text-[#1A1A1A]/70 leading-relaxed mb-10">
-            A Brotu planta as sementes do seu conteudo, cultiva sua presenca
-            digital e você colhe os resultados.
+            Automatize sua rotina de creator com a Brotu. Publique em várias
+            plataformas, reaproveite conteúdos e mantenha consistência
             <span className="block font-black text-black mt-2">
-              Enquanto você vive, sua marca floresce.
+              sem trabalho manual.
             </span>
           </p>
         </div>

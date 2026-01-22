@@ -71,13 +71,13 @@ export default function Pricing() {
         <div className="inline-block px-4 py-1.5 bg-[#FFD166] text-black border-2 border-black text-[10px] font-black uppercase tracking-[0.2em] mb-8 shadow-[4px_4px_0_#000]">
           PLANOS DE GROWTH
         </div>
-        <h2 className="text-5xl md:text-8xl font-black mb-8 uppercase tracking-tighter leading-none">
+        <h2 className="text-5xl md:text-8xl font-black mb-8 uppercase leading-none">
           INVISTA EM SUA <br />
           <span className="text-[#EF5E28]">RELEVÂNCIA.</span>
         </h2>
-        <p className="text-xl text-black/50 mb-20 font-bold max-w-2xl mx-auto">
+        <p className="text-xl text-black/50 mb-20 font-semibold max-w-2xl mx-auto">
           Quanto custa ser invisível para o seu público? <br />
-          Escolha como quer que a Brotu impulsione sua marca.
+          Escolha como quer que a Brotu automatize sua presença.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">

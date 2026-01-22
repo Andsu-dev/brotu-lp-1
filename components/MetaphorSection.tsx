@@ -2,22 +2,22 @@ const steps = [
   {
     emoji: "🌱",
     title: "Plantar",
-    text: "Voce entra com sua essencia, nicho e voz unica.",
+    text: "Você define sua visão, nicho e posicionamento. A estratégia nasce da sua identidade.",
   },
   {
     emoji: "💧",
     title: "Cultivar",
-    text: "A inteligencia da Brotu organiza sua rotina e potencializa sua criacao.",
+    text: "A Brotu organiza sua rotina, distribui conteúdos e ativa automações para manter tudo rodando.",
   },
   {
     emoji: "🌤️",
-    title: "Evoluir",
-    text: "Constancia diaria nas redes para manter o algoritmo sempre aquecido.",
+    title: "Escalar",
+    text: "Constância automática, reaproveitamento e presença contínua em todas as plataformas.",
   },
   {
     emoji: "🌳",
     title: "Colher",
-    text: "Alcance organico real, autoridade de marca e uma audiencia fiel.",
+    text: "Audiência aquecida, autoridade construída e redes sociais funcionando como ativo de receita.",
   },
 ];
 
@@ -66,8 +66,7 @@ export default function MetaphorSection() {
 
         <div className="mt-20 max-w-4xl mx-auto bg-[#FFD166] p-10 border-4 border-black shadow-[10px_10px_0_#1A1A1A]">
           <p className="text-2xl sm:text-3xl font-black italic uppercase leading-tight">
-            "A BROTU NAO E SOBRE FAZER MENOS, E SOBRE ALCANCAR MAIS COM A
-            ESTRATEGIA CERTA."
+            "A criatividade nasce em você. A recorrência nasce na Brotu."
           </p>
           <p className="mt-6 font-black text-xs uppercase opacity-50 tracking-[0.3em]">
             — MANIFESTO BROTU

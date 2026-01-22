@@ -12,42 +12,42 @@ import { WaitlistProvider, useWaitlist } from "./context/WaitlistContext";
 const features = [
   {
     title: "Curadoria por Nicho",
-    desc: "Inteligência que aprende sua voz. A Brotu não gera posts genéricos: ela entende sua marca para criar conexão real com seu público.",
+    desc: "Organizamos seus conteúdos por tema, formato e objetivo. Assim você reaproveita melhor o que já cria e mantém consistência no seu nicho.",
     icon: "🎯",
     color: "bg-white",
     dark: false,
   },
   {
-    title: "Faro de Growth",
-    desc: "Monitoramos as tendências do seu nicho 24h. A Brotu te posiciona no centro do que está acontecendo agora.",
+    title: "Radar de Tendências",
+    desc: "Acompanhe o que está em alta no seu nicho e decida quando aproveitar o momento certo — sem depender de sorte.",
     icon: "📈",
     color: "bg-[#FFD166]",
     dark: false,
   },
   {
-    title: "Constância Imbatível",
-    desc: "A Brotu garante que você nunca fique em silêncio. Organizamos seu calendário para uma presença onipresente.",
+    title: "Constância Automática",
+    desc: "Programe rotinas de postagem e mantenha sua marca ativa mesmo quando você não estiver online.",
     icon: "⚡",
     color: "bg-[#003B5C]",
     dark: true,
   },
   {
-    title: "Engajamento Ativo",
-    desc: "Interaja com sua audiência com agilidade. A Brotu ajuda você a responder cada comentário, aquecendo sua comunidade.",
+    title: "Gestão de Engajamento",
+    desc: "Centralize comentários e interações em um só lugar para responder com agilidade e fortalecer sua comunidade.",
     icon: "🤝",
     color: "bg-[#8CC63F]",
     dark: false,
   },
   {
-    title: "Distribuição Brotu",
-    desc: "Sua mensagem, em todo lugar, no formato certo. Do Reels ao X, a Brotu adapta sua essência para cada rede.",
+    title: "Distribuição Inteligente",
+    desc: "Publique uma vez e distribua automaticamente para diferentes plataformas, respeitando o formato de cada rede.",
     icon: "🔄",
     color: "bg-white",
     dark: false,
   },
   {
-    title: "Análise de Relevância",
-    desc: "Chega de métricas vazias. Foque nos dados que realmente constroem autoridade e atraem seguidores qualificados.",
+    title: "Insights Relevantes",
+    desc: "Acompanhe métricas que realmente importam para consistência, retenção e crescimento — sem dashboards confusos.",
     icon: "💎",
     color: "bg-[#EF5E28]",
     dark: true,
@@ -66,7 +66,7 @@ function AppContent() {
   const { isOpen, closeModal, openModal } = useWaitlist();
 
   return (
-    <div className="min-h-screen selection:bg-[#EF5E28] selection:text-white">
+    <div className="min-h-screen w-screen selection:bg-[#EF5E28] selection:text-white">
       <Navbar />
 
       <main>
@@ -95,15 +95,13 @@ function AppContent() {
               className="mb-8"
               rotation="2deg"
             />
-            <h2 className="text-5xl sm:text-8xl font-black mb-12 uppercase tracking-tighter leading-none">
-              MUITO MAIS QUE <br />
-              <span className="text-[#EF5E28]">CONTEÚDO AUTOMÁTICO.</span>
+            <h2 className="text-5xl sm:text-8xl font-black mb-12 uppercase  leading-none">
+              Muito mais que <br />
+              <span className="text-[#EF5E28]">automação de posts.</span>
             </h2>
-            <p className="text-xl text-black/60 mb-20 font-bold max-w-3xl mx-auto leading-relaxed">
-              A Brotu é o braço direito do creator moderno. Não trabalhamos no
-              seu lugar; potencializamos sua estratégia para que seu Growth
-              nunca pare. Mantemos sua marca pulsando enquanto você foca na
-              visão que só você tem.
+            <p className="text-xl text-black/60 mb-20 font-semibold max-w-3xl mx-auto leading-relaxed">
+              A Brotu organiza, distribui e automatiza sua rotina de creator.
+              Você continua criando. A Brotu cuida da execução.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -138,31 +136,33 @@ function AppContent() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex flex-col lg:flex-row gap-16 items-center">
               <div className="flex-1">
-                <h3 className="text-4xl sm:text-6xl font-black uppercase tracking-tighter mb-8 leading-[0.9]">
-                  RECUPERE SEU TEMPO PARA{" "}
-                  <span className="text-[#EF5E28]">ESTRATÉGIA.</span>
+                <h3 className="text-4xl sm:text-6xl font-black uppercase mb-8 leading-[0.9]">
+                  RECUPERE SEU TEMPO{" "}
+                  <span className="text-[#EF5E28]">
+                    TRANSFORME EM RESULTADO.
+                  </span>
                 </h3>
                 <div className="space-y-8">
                   <div className="flex gap-6 items-start border-l-[6px] border-[#003B5C] pl-8">
                     <div>
                       <p className="font-black text-2xl uppercase tracking-tighter">
-                        Growth Sem Exaustão
+                        Execução Automática
                       </p>
                       <p className="text-base font-bold opacity-60 mt-2">
-                        A Brotu cuida da execução repetitiva para você focar no
-                        que é insubstituível: sua visão.
+                        A Brotu assume tarefas repetitivas como publicação,
+                        distribuição e organização para que sua energia vá para
+                        decisões estratégicas.
                       </p>
                     </div>
                   </div>
                   <div className="flex gap-6 items-start border-l-[6px] border-[#EF5E28] pl-8">
                     <div>
                       <p className="font-black text-2xl uppercase tracking-tighter">
-                        Presença Digital Viva
+                        Sistema em Funcionamento
                       </p>
                       <p className="text-base font-bold opacity-60 mt-2">
-                        O algoritmo exige frequência. A Brotu entrega a
-                        constância que sua marca precisa para nunca ser
-                        esquecida.
+                        Suas redes deixam de depender do seu tempo diário e
+                        passam a operar com processos contínuos e previsíveis.
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@ function AppContent() {
                       onClick={openModal}
                       className="retro-btn-primary w-full py-4 font-black uppercase tracking-widest text-sm"
                     >
-                      Faça sua marca crescer
+                      Iniciar agora
                     </button>
                   </div>
                 </div>
